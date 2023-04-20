@@ -40,11 +40,11 @@ jobs:
     - name: list dir
       run: dir D:\a\GitAc2\GitAc2\bin\
       
-    - name: Upload artifacts
-      uses: actions/upload-artifact@v2
+    - name: Download artifacts
+      uses: actions/download-artifact@v2
       with:
-        name: MyProject artifacts
-        path: bin/Release
+        name: my-artifacts
+        path: artifacts
       
 
       

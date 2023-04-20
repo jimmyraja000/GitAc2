@@ -38,7 +38,7 @@ jobs:
       run: msbuild GitAcTest.sln /p:Configuration=Release 
       #--output ${{env.AZURE_WEBAPP_PACKAGE_PATH}}
     - name: list dir
-      run: dir C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\
+      run: dir D:\a\GitAc2\GitAc2\bin\
       
     - name: Upload artifacts
       uses: actions/upload-artifact@v2

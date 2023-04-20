@@ -49,7 +49,7 @@ jobs:
 
       
 #     - name: run dir
-#       run: dir D:\a\GitTestAction\ && dir D:\a\GitTestAction\GitTestAction\ && dir D:\a\GitTestAction\GitTestAction\bin\  && dir D:\a\GitTestAction\GitTestAction\obj\Release\
+##      run: dir D:\a\GitTestAction\ && dir D:\a\GitTestAction\GitTestAction\ && dir D:\a\GitTestAction\GitTestAction\bin\  && dir D:\a\GitTestAction\GitTestAction\obj\Release\
 
     - name: Deployment
       uses: Azure/webapps-deploy@v2
